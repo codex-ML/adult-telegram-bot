@@ -1,0 +1,6 @@
+requests==2.31.0
+aiohttp==3.9.3
+pyrofork==2.3.20
+tgCrypto==1.2.5
+pymongo==4.6.3
+aiofiles==23.2.1

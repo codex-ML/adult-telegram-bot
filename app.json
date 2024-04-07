@@ -1,0 +1,10 @@
+{
+  "name": "pron advance bot",
+  "description": "Description of your app",
+  "repository": "https://github.com/your-username/your-repo",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

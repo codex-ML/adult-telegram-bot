@@ -1,0 +1,27 @@
+2024-04-08 00:24:53,631 - INFO - This is an info message
+2024-04-08 00:24:53,631 - WARNING - This is a warning message
+2024-04-08 00:24:53,631 - ERROR - This is an error message
+2024-04-08 00:24:53,631 - CRITICAL - This is a critical message
+2024-04-08 00:24:54,144 - INFO - Connecting...
+2024-04-08 00:24:54,242 - INFO - Connected! Production DC5 - IPv4
+2024-04-08 00:24:54,243 - INFO - NetworkTask started
+2024-04-08 00:24:54,907 - INFO - Session initialized: Layer 176
+2024-04-08 00:24:54,908 - INFO - Device: CPython 3.11.8 - Pyrogram 2.3.20
+2024-04-08 00:24:54,908 - INFO - System: Linux 6.6.9-amd64 (en)
+2024-04-08 00:24:54,908 - INFO - Session started
+2024-04-08 00:24:54,967 - INFO - PingTask started
+2024-04-08 00:24:55,335 - INFO - Started 8 HandlerTasks
+2024-04-08 00:24:55,527 - INFO - This is an info message
+2024-04-08 00:24:55,527 - WARNING - This is a warning message
+2024-04-08 00:24:55,527 - ERROR - This is an error message
+2024-04-08 00:24:55,528 - CRITICAL - This is a critical message
+2024-04-08 00:24:55,831 - INFO - Connecting...
+2024-04-08 00:24:55,947 - INFO - Connected! Production DC5 - IPv4
+2024-04-08 00:24:55,948 - INFO - NetworkTask started
+2024-04-08 00:24:56,549 - INFO - Session initialized: Layer 176
+2024-04-08 00:24:56,550 - INFO - Device: CPython 3.11.8 - Pyrogram 2.3.20
+2024-04-08 00:24:56,550 - INFO - System: Linux 6.6.9-amd64 (en)
+2024-04-08 00:24:56,551 - INFO - Session started
+2024-04-08 00:24:56,641 - INFO - PingTask started
+2024-04-08 00:24:56,950 - INFO - Started 8 HandlerTasks
+2024-04-08 00:25:16,951 - INFO - HTTP Request: POST https://www.toptal.com/developers/hastebin/api/documents "HTTP/1.1 200 OK"
