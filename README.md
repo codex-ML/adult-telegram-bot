@@ -9,9 +9,9 @@ Provide a brief description of what your project does and its purpose. This sect
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- nhi pata  1
+- use karke dekho 2
+- hehe 3
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/codex-ML/pron-advance-bot)
