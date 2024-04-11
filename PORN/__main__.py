@@ -214,13 +214,13 @@ async def study(client, msg):
 
 
 # dark
-@app.on_message(filters.regex("DARKWEB-VIDEOS"))
+@app.on_message(filters.regex("EROTIC-VIDEOS"))
 async def dark(client, msg):
   await app.delete_messages(chat_id=msg.chat.id, message_ids=msg.id)
   channel_id = -1001967606455  # Example channel ID
   user_id = msg.from_user.id
-  source = -1001605681909
-  file_name = "dark.txt"
+  source = -1002063856222
+  file_name = "erotic.txt"
 
   try:
     await app.get_chat_member(channel_id, user_id)
