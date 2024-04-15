@@ -156,9 +156,7 @@ async def about(client, msg):
   except Exception as e:
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -183,9 +181,7 @@ async def join(client, msg):
   except Exception as e:
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -224,9 +220,7 @@ async def rvideos(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -265,9 +259,7 @@ async def bw(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -306,9 +298,7 @@ async def meme(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -347,9 +337,7 @@ async def gifs(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -388,9 +376,7 @@ async def SKETCHPIC(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -429,9 +415,7 @@ async def ROMANTICGIF(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -470,9 +454,7 @@ async def EPICS(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -511,9 +493,7 @@ async def STICKER(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -552,9 +532,7 @@ async def study(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -593,9 +571,7 @@ async def dark(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -634,9 +610,7 @@ async def send_random_channel_post(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
@@ -675,9 +649,7 @@ async def INDIAN(client, msg):
     await msg.reply(f"An error occurred: {e}")
     abtbtn = InlineKeyboardMarkup([[
         InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
-                             url="https://t.me/+Y9O5ptuPEFs3NGE1"),
-        InlineKeyboardButton("RESTART  BOT",
-                             url="http://t.me/Pronexe_bot?start=start")
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
     ]])
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
