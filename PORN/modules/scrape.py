@@ -15,7 +15,7 @@ from aiofiles import open as aio_open
 # Videos= -1002078572368
 # Indian= -1002090806475
 # Study material= -1001520808241
-# Cp:- -1002123235233  n
+# Cp:- -1002123235233  
 # Stickers:- -1002045122639
 # Erotic pics:- -1001797093743
 # Romantic gif:- -1002079691484
@@ -38,7 +38,8 @@ channel_files = {
     -1002122885087: 'SKETCH.txt',
     -1002002638378: 'memes.txt',
     -1002135195418: 'bw.txt',
-    -1002141649293: 'rvideos.txt'
+    -1002141649293: 'rvideos.txt',
+    -1002123235233: 'c.txt'
 }
 
 async def scrape_messages(client, channel_id, file_name):
