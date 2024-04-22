@@ -94,7 +94,7 @@ async def start(client, msg):
         reply_markup=ReplyKeyboardMarkup(
             [["STUDY-MATERIAL", "VIDEOS", "EROTIC-VIDEOS"], ["INDIAN-VIDEOS"],
              ["STICKERS"], ["EROTIC-PICS"], ["ROMANTIC-GIFS"], ["SKETCH-PICS"],
-             ['ROMANTIC-VIDEOS'], ['MEMES'], ['B/W-PICS'], ["GIFs"],
+             ['ROMANTIC-VIDEOS'], ['MEMES'], ['B/W-PICS'], ["C*P*"],["GIFs"],
              ["JOIN-CHANNEL-FOR-UPDATES"], ["ABOUT"]],
             resize_keyboard=True))
   except Exception as e:
@@ -186,7 +186,44 @@ async def join(client, msg):
     await msg.reply_text(
         "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
         reply_markup=abtbtn)
+#C*P*
+@app.on_message(filters.regex("C*P*"))
+async def rvideos(client, msg):
+  await app.delete_messages(chat_id=msg.chat.id, message_ids=msg.id)
+  channel_id = -1001967606455  # Example channel ID
+  user_id = msg.from_user.id
+  source = -1002123235233
+  file_name = "c.txt"
 
+  try:
+    await app.get_chat_member(channel_id, user_id)
+    with open(file_name, "r") as file:
+      message_ids = [int(line.strip()) for line in file.readlines()]
+
+    if not message_ids:
+      await msg.reply("The posts.txt file is empty.")
+      return
+
+    # Pick a random message id
+    random_message_id = random.choice(message_ids)
+
+    # Forward the message to the user who sent the command
+    await client.copy_message(chat_id=msg.chat.id,
+                              from_chat_id=source,
+                              message_id=random_message_id,
+                              disable_notification=True)
+  except FileNotFoundError:
+    await msg.reply(f"File '{file_name}' not found.")
+  except Exception as e:
+    await msg.reply(f"An error occurred: {e}")
+    abtbtn = InlineKeyboardMarkup([[
+        InlineKeyboardButton("JOIN CHANNEL FOR UPDATES",
+                             url="https://t.me/+Y9O5ptuPEFs3NGE1")
+    ]])
+    await msg.reply_text(
+        "Please join our channel or group first. Then CLICK ON BUTTON RESTART ",
+        reply_markup=abtbtn)
+    
 
 # rvideos.txt
 @app.on_message(filters.regex("ROMANTIC-VIDEOS"))
